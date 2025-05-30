@@ -7,10 +7,7 @@ Jaya Jaya Institut merupakan salah satu institusi pendidikan perguruan yang tela
 Jumlah dropout yang tinggi ini tentunya menjadi salah satu masalah yang besar untuk sebuah institusi pendidikan. Oleh karena itu, Jaya Jaya Institut ingin mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout sehingga dapat diberi bimbingan khusus.
 
 ### **Cakupan Proyek**
-Berdasarkan permasalahan bisnis di atas, cakupan proyek yang akan dikerjakan yaitu mencari insights terkait faktor yang menyebabkan tingginya tingkat dropout dan membuat sebuah business dashboard yang dapat digunakan untuk memonitori faktor-faktor tersebut. 
-
-Berikut ini beberapa poin yang akan diselidiki dan dicari tahu jawabannya dalam proyek ini.
-1. Faktor-faktor yang berpengaruh signifikan terhadap keputusan mahasiswa untuk dropout.
+Berdasarkan permasalahan bisnis di atas, cakupan proyek yang akan dikerjakan yaitu mencari insights terkait faktor yang menyebabkan tingginya tingkat dropout (dengan kata lain mengidentifikasi faktor-faktor yang berpengaruh signifikan terhadap keputusan mahasiswa untuk dropout) dan membuat sebuah business dashboard yang dapat digunakan untuk memonitori faktor-faktor tersebut. 
 
 ### **Persiapan**
 

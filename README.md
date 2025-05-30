@@ -45,13 +45,14 @@ pip install -r requirements.txt
 
 ## Business Dashboard
 Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
-Link Dashboard:
+Link Dashboard: [Students' Performance Dashboard](https://lookerstudio.google.com/reporting/4ecb0ad1-7c86-4204-a1cd-22d3c677f766)
 
 ## Menjalankan Sistem Machine Learning
-Running kode berikut untuk menjalankan protoype sistem machine learning yang telah dibuat menggunakan Streamlit secara lokal. Adapun akses ke prototype tersebut dapat dilakukan secara online melalui: 
+Running kode berikut untuk menjalankan protoype sistem machine learning yang telah dibuat menggunakan Streamlit secara lokal. 
 ```
 streamlit run app.py
 ```
+Adapun akses ke prototype tersebut dapat dilakukan secara online melalui: 
 
 ## Conclusion
 Jelaskan konklusi dari proyek yang dikerjakan.

@@ -52,7 +52,7 @@ Running kode berikut untuk menjalankan protoype sistem machine learning yang tel
 ```
 streamlit run app.py
 ```
-Adapun akses ke prototype tersebut dapat dilakukan secara online melalui: 
+Adapun akses ke prototype tersebut dapat dilakukan secara online melalui: https://jji-students-performance.streamlit.app/
 
 ## **Conclusion**
 Berdasarkan analisis data dan model prediktif yang telah dikembangkan, dapat disimpulkan bahwa beberapa faktor utama yang berkontribusi terhadap kemungkinan mahasiswa melakukan dropout antara lain adalah performa akademik di semester awal, keterlambatan pembayaran uang kuliah, dan nilai saat masuk. Model klasifikasi yang dibangun menggunakan 10 fitur terpenting mampu memprediksi status dropout mahasiswa dengan cukup baik, dan dapat digunakan sebagai alat bantu dalam proses pengambilan keputusan oleh pihak institusi.

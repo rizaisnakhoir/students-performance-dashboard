@@ -1,13 +1,13 @@
 # **Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech**
 
 ## **Business Understanding**
-Jaya Jaya Institut merupakan salah satu institusi pendidikan perguruan yang telah berdiri sejak tahun 2000. Hingga saat ini ia telah mencetak banyak lulusan dengan reputasi yang sangat baik. Akan tetapi, terdapat banyak juga siswa yang tidak menyelesaikan pendidikannya alias dropout.
+Jaya Jaya Institut merupakan lembaga pendidikan tinggi yang telah beroperasi sejak tahun 2000. Selama lebih dari dua dekade, institusi ini telah meluluskan banyak alumni dengan rekam jejak yang membanggakan. Namun demikian, tidak sedikit pula mahasiswa yang tidak berhasil menyelesaikan studi mereka alias mengalami dropout.
 
 ### **Permasalahan Bisnis**
-Jumlah dropout yang tinggi ini tentunya menjadi salah satu masalah yang besar untuk sebuah institusi pendidikan. Oleh karena itu, Jaya Jaya Institut ingin mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout sehingga dapat diberi bimbingan khusus.
+Tingginya angka mahasiswa yang mengalami dropout menjadi tantangan serius bagi institusi pendidikan seperti Jaya Jaya Institut. Untuk itu, pihak institusi ingin melakukan deteksi dini terhadap mahasiswa yang berpotensi dropout agar bisa segera diberikan pendampingan dan intervensi yang tepat.
 
 ### **Cakupan Proyek**
-Berdasarkan permasalahan bisnis di atas, cakupan proyek yang akan dikerjakan yaitu mencari insights terkait faktor yang menyebabkan tingginya tingkat dropout (dengan kata lain mengidentifikasi faktor-faktor yang berpengaruh signifikan terhadap keputusan mahasiswa untuk dropout) dan membuat sebuah business dashboard yang dapat digunakan untuk memonitori faktor-faktor tersebut. 
+Sebagai upaya menjawab permasalahan tersebut, proyek ini bertujuan untuk menggali wawasan dari data guna mengidentifikasi faktor-faktor utama yang memengaruhi keputusan mahasiswa untuk tidak menyelesaikan studi. Selain itu, akan dikembangkan pula sebuah business dashboard yang dapat membantu institusi dalam memantau dan mengawasi indikator-indikator penting terkait potensi dropout mahasiswa.
 
 ### **Persiapan**
 
@@ -43,21 +43,29 @@ pip install -r requirements.txt
 
 **5. Jalankan Jupyter Notebook**
 
-## Business Dashboard
+## **Business Dashboard**
 Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
 Link Dashboard: [Students' Performance Dashboard](https://lookerstudio.google.com/reporting/4ecb0ad1-7c86-4204-a1cd-22d3c677f766)
 
-## Menjalankan Sistem Machine Learning
+## **Menjalankan Sistem Machine Learning**
 Running kode berikut untuk menjalankan protoype sistem machine learning yang telah dibuat menggunakan Streamlit secara lokal. 
 ```
 streamlit run app.py
 ```
 Adapun akses ke prototype tersebut dapat dilakukan secara online melalui: 
 
-## Conclusion
-Jelaskan konklusi dari proyek yang dikerjakan.
+## **Conclusion**
+Berdasarkan analisis data dan model prediktif yang telah dikembangkan, dapat disimpulkan bahwa beberapa faktor utama yang berkontribusi terhadap kemungkinan mahasiswa melakukan dropout antara lain adalah performa akademik di semester awal, keterlambatan pembayaran uang kuliah, dan nilai saat masuk. Model klasifikasi yang dibangun menggunakan 10 fitur terpenting mampu memprediksi status dropout mahasiswa dengan cukup baik, dan dapat digunakan sebagai alat bantu dalam proses pengambilan keputusan oleh pihak institusi.
 
-### Rekomendasi Action Items
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
-- action item 1
-- action item 2
+Dengan adanya sistem prediksi ini, institusi dapat mendeteksi lebih awal mahasiswa yang berisiko tinggi untuk dropout dan memberikan perhatian atau intervensi secara lebih proaktif.
+
+### **Rekomendasi Action Items**
+Berikut beberapa langkah strategis yang direkomendasikan bagi Jaya Jaya Institut untuk menurunkan tingkat dropout:
+1. Implementasikan dashboard monitoring
+   Gunakan dashboard interaktif untuk memantau secara real-time mahasiswa dengan risiko tinggi dropout berdasarkan indikator yang telah teridentifikasi.
+
+2. Program bimbingan akademik khusus
+   Sediakan layanan bimbingan atau mentoring bagi mahasiswa yang terdeteksi berisiko dropout, dengan fokus pada peningkatan performa akademik dan motivasi belajar.
+
+3. Keringanan atau fleksibilitas biaya
+   Evaluasi kemungkinan memberi keringanan biaya kuliah atau skema pembayaran yang lebih fleksibel bagi mahasiswa yang mengalami kesulitan keuangan namun menunjukkan potensi akademik yang baik.
